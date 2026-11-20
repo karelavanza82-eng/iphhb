@@ -67,7 +67,7 @@ class AppCatalogManager(private val context: Context) {
                 InstalledAppInfo(
                     packageName = info.activityInfo.packageName,
                     activityName = info.activityInfo.name,
-                    label = info.loadLabel(pm)?.toString()?.trim().orEmpty()
+                    label = info.loadLabel(pm).toString().trim()
                         .ifBlank { info.activityInfo.packageName }
                 )
             }
