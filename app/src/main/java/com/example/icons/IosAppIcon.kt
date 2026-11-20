@@ -106,16 +106,14 @@ fun IosAppIcon(
                     Box(
                         modifier = Modifier
                             .fillMaxSize()
-                            .background(bgBrush)
-                            .padding(iconSize * 0.11f),
+                            .background(bgBrush),
                         contentAlignment = Alignment.Center
                     ) {
                         Image(
                             bitmap = cached.bitmap,
                             contentDescription = label,
-                            modifier = Modifier
-                                .fillMaxSize()
-                                .clip(RoundedCornerShape(percent = 20))
+                            contentScale = androidx.compose.ui.layout.ContentScale.Crop,
+                            modifier = Modifier.fillMaxSize()
                         )
                     }
                 } else {

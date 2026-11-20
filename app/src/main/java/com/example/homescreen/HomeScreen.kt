@@ -254,12 +254,7 @@ fun HomeScreen(
                     scaleY = scale
                 }
         ) {
-            if (settings.showStatusBar && !isEditMode) {
-                IosStatusBar(
-                    isLocationActive = settings.weatherCity.isNotBlank(),
-                    contentColor = labelColor
-                )
-            } else if (isEditMode) {
+            if (isEditMode) {
                 // iPhone Edit Mode Top Bar (+ Widget & Done)
                 Row(
                     modifier = Modifier
@@ -298,7 +293,7 @@ fun HomeScreen(
                     }
                 }
             } else {
-                Spacer(Modifier.statusBarsPadding())
+                Spacer(Modifier.statusBarsPadding().height(6.dp))
             }
 
             // Multi-page Home Grid

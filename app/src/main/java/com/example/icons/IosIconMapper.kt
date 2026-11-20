@@ -28,6 +28,9 @@ object IosIconMapper {
         "com.samsung.android.dialer" to IosIconKey.PHONE,
         "com.android.phone" to IosIconKey.PHONE,
         "com.transsion.dialer" to IosIconKey.PHONE,
+        "com.sh.smart.caller" to IosIconKey.PHONE,
+        "com.oplus.dialer" to IosIconKey.PHONE,
+        "com.vivo.dialer" to IosIconKey.PHONE,
         "com.miui.contacts" to IosIconKey.CONTACTS,
 
         // Messages
@@ -35,11 +38,15 @@ object IosIconMapper {
         "com.android.mms" to IosIconKey.MESSAGES,
         "com.samsung.android.messaging" to IosIconKey.MESSAGES,
         "com.transsion.mms" to IosIconKey.MESSAGES,
+        "com.oplus.mms" to IosIconKey.MESSAGES,
 
         // Browsers
         "com.android.chrome" to IosIconKey.CHROME,
         "com.chrome.beta" to IosIconKey.CHROME,
         "com.sec.android.app.sbrowser" to IosIconKey.SAFARI,
+        "com.transsion.phoenix" to IosIconKey.SAFARI,
+        "com.heytap.browser" to IosIconKey.SAFARI,
+        "com.mi.globalbrowser" to IosIconKey.SAFARI,
         "org.mozilla.firefox" to IosIconKey.SAFARI,
         "com.opera.browser" to IosIconKey.SAFARI,
         "com.microsoft.emmx" to IosIconKey.SAFARI,
@@ -50,6 +57,9 @@ object IosIconMapper {
         "com.apple.android.music" to IosIconKey.MUSIC,
         "com.sec.android.app.music" to IosIconKey.MUSIC,
         "com.miui.player" to IosIconKey.MUSIC,
+        "com.transsion.music" to IosIconKey.MUSIC,
+        "com.heytap.music" to IosIconKey.MUSIC,
+        "com.oppo.music" to IosIconKey.MUSIC,
         "com.spotify.music" to IosIconKey.SPOTIFY,
 
         // Photos / Gallery
@@ -58,6 +68,8 @@ object IosIconMapper {
         "com.sec.android.gallery3d" to IosIconKey.PHOTOS,
         "com.miui.gallery" to IosIconKey.PHOTOS,
         "com.transsion.gallery" to IosIconKey.PHOTOS,
+        "com.coloros.gallery3d" to IosIconKey.PHOTOS,
+        "com.oplus.gallery" to IosIconKey.PHOTOS,
 
         // Camera
         "com.android.camera" to IosIconKey.CAMERA,
@@ -65,6 +77,7 @@ object IosIconMapper {
         "com.google.android.GoogleCamera" to IosIconKey.CAMERA,
         "com.sec.android.app.camera" to IosIconKey.CAMERA,
         "com.transsion.camera" to IosIconKey.CAMERA,
+        "com.oplus.camera" to IosIconKey.CAMERA,
         "com.mediatek.camera" to IosIconKey.CAMERA,
 
         // Settings
@@ -75,16 +88,22 @@ object IosIconMapper {
         "com.google.android.calendar" to IosIconKey.CALENDAR,
         "com.android.calendar" to IosIconKey.CALENDAR,
         "com.samsung.android.calendar" to IosIconKey.CALENDAR,
+        "com.transsion.calendar" to IosIconKey.CALENDAR,
+        "com.coloros.calendar" to IosIconKey.CALENDAR,
 
         // Weather
         "com.google.android.apps.weather" to IosIconKey.WEATHER,
         "com.sec.android.daemonapp" to IosIconKey.WEATHER,
         "com.miui.weather2" to IosIconKey.WEATHER,
+        "com.transsion.weather" to IosIconKey.WEATHER,
+        "com.coloros.weather2" to IosIconKey.WEATHER,
 
         // Clock
         "com.google.android.deskclock" to IosIconKey.CLOCK,
         "com.android.deskclock" to IosIconKey.CLOCK,
         "com.sec.android.app.clockpackage" to IosIconKey.CLOCK,
+        "com.transsion.deskclock" to IosIconKey.CLOCK,
+        "com.coloros.alarmclock" to IosIconKey.CLOCK,
 
         // Maps
         "com.google.android.apps.maps" to IosIconKey.MAPS,
@@ -113,6 +132,8 @@ object IosIconMapper {
         "com.google.android.keep" to IosIconKey.NOTES,
         "com.samsung.android.app.notes" to IosIconKey.NOTES,
         "com.miui.notes" to IosIconKey.NOTES,
+        "com.transsion.notebook" to IosIconKey.NOTES,
+        "com.coloros.note" to IosIconKey.NOTES,
 
         // Reminders / Tasks
         "com.google.android.apps.tasks" to IosIconKey.REMINDERS,
@@ -127,6 +148,9 @@ object IosIconMapper {
         "com.android.documentsui" to IosIconKey.FILES,
         "com.google.android.documentsui" to IosIconKey.FILES,
         "com.sec.android.app.myfiles" to IosIconKey.FILES,
+        "com.transsion.filemanager" to IosIconKey.FILES,
+        "com.coloros.filemanager" to IosIconKey.FILES,
+        "com.mi.android.globalFileexplorer" to IosIconKey.FILES,
 
         // Mail
         "com.google.android.gm" to IosIconKey.MAIL,
@@ -143,6 +167,8 @@ object IosIconMapper {
         "com.android.calculator2" to IosIconKey.CALCULATOR,
         "com.sec.android.app.popupcalculator" to IosIconKey.CALCULATOR,
         "com.miui.calculator" to IosIconKey.CALCULATOR,
+        "com.transsion.calculator" to IosIconKey.CALCULATOR,
+        "com.coloros.calculator" to IosIconKey.CALCULATOR,
 
         // Google
         "com.google.android.googlequicksearchbox" to IosIconKey.GOOGLE,

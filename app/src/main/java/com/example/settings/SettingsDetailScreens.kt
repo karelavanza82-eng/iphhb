@@ -294,12 +294,6 @@ private fun HomeScreenSettingsContent(
                 )
                 IosSimpleDivider()
                 IosToggleRow(
-                    title = "Show iOS Status Bar",
-                    checked = settings.showStatusBar,
-                    onCheckedChange = { v -> onUpdateSettings { it.copy(showStatusBar = v) } }
-                )
-                IosSimpleDivider()
-                IosToggleRow(
                     title = "Show Quick Search Pill",
                     checked = settings.showSearchPill,
                     onCheckedChange = { v -> onUpdateSettings { it.copy(showSearchPill = v) } }
