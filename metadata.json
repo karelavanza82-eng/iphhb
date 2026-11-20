@@ -1,0 +1,6 @@
+{
+  "name": "iOS Launcher",
+  "description": "Ultra-realistic iPhone-style Android Home Screen Launcher with authentic iOS artwork icons, spring app open/close transitions, frosted glass dock, AppWidgetHost widgets, Spotlight search, and live notification badges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

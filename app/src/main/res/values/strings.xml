@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">iOS Launcher</string>
+    <string name="notification_listener_label">iOS Launcher Badges</string>
+    <string name="search_placeholder">Search</string>
+    <string name="edit_done">Done</string>
+    <string name="no_events_today">No events today</string>
+    <string name="settings_title">Settings</string>
+</resources>
